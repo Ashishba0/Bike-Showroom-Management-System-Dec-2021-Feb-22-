@@ -1,0 +1,32 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+   
+}
+/*.products{
+	padding-top: 8.75rem;
+}*/
+.products a{
+	text-decoration: none;
+	color: black;
+}
+.product-list .product-image img{
+	transition: all 50ms ease-in-out;
+}
+.product-list .product-image .product-image-secondary{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+
+}
+.product-list .product-image:hover .product-image-secondary{
+	opacity: 1;
+}

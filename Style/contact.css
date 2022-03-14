@@ -1,0 +1,30 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+   
+}
+#btn1{
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #feca15;
+}
+.container_map{
+    margin: 10px 10px;
+    margin-left: 100px;
+}
+input{
+   width: 50px;
+}
+.card-body{
+    background-color: darksalmon;
+}
+.h3{
+    background-color: rgba(0, 0, 0, 0.788);
+    
+}

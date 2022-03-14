@@ -1,0 +1,17 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+   
+}
+#btn1{
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #feca15;
+}
+

@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body::before{
+    content:"";
+    background:url('../Image/log\ bg1.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+}
+.container, .login-text, #btn-login{
+    border-radius: 20px;    
+    box-sizing: content-box;
+    float: right;
+    margin-top: 100px;
+    color:#fff;
+    background: rgba(0, 0, 0, 0.479);
+}
+.label1{
+    position: relative;
+    font-size: 22px;
+    margin: 20px;   
+    margin-right: 2px;
+    float: left;
+}
+input{
+    position: absolute;
+    margin: 20px;
+    font-size: 15px;
+    margin-right: 2px;
+    padding: 10px;
+    float: right;
+}
+.login-text{
+    float: left;
+    margin-left: 12%;
+    padding: 3%;
+}
+h2{
+    color: rgb(238, 226, 226);
+}
+#btn-register{
+    border-radius: 20px;
+    padding: 10px 150px;
+    cursor: pointer;
+    background-color: #feca15;
+}
+#btn-login{
+    padding: 10px 142px;
+    cursor: pointer;
+    background-color: #feca15;   
+    color: #000;
+}
+#Fstname, #lstname, #email , #pwd{
+    padding-right: 52px;
+}
+.register-info{
+    font-size: 14px;
+}
+.logo{
+    position: absolute;
+    cursor: pointer;
+    
+}
+.container{
+    padding: 2%;
+    margin-right: 3%;
+}
+.navbar h1{
+    background: bisque;
+    color: black;
+}
+.header{
+    background-color: black;
+    height: 130px;
+}
+h1{
+    padding: 5px 104px;
+    color:#fff;
+}

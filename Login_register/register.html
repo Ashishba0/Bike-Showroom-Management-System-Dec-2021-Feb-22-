@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../Style/style-index.css">
+    <link rel="stylesheet" type="text/css" href="../Style/style-register.css" .>
+
+    <title>Register</title>
+</head>
+
+<body>
+     <!----===
+<a href="../Login_register/logout.php"> Logout</a>
+-->
+<header class="header">
+    <div class="logo">
+        <a href="../Index/index1.php" title="Go to home">
+            <img src="../Image/gif1.gif" href="#" height="100" width="160">
+        </a>
+    </div>
+    <div class="navbar">
+
+
+        <ul>
+            <li><a href="../Index/index1.php">Home </a> </li>
+            <li><a href="../Bikes/bikes.html">Bikes</a></li>
+            <li><a href="../Garage/garage.html">Garage</a></li>
+            <li><a href="#">Exclusive Parts </a></li>
+            <li><a href="#">Riding Gear </a></li>
+            <li><a href="../Service/Servicing.php">Servicing</a></li>
+            <li><a href="#">Contact Us </a></li>
+
+        </ul>
+
+    </div>
+</header>
+
+    <div class="container">
+        <h1> Registration</h1>
+        <div class="text">
+            <form action="register.php" id="register" method="POST">
+                <label class="label" for="username">First Name</label>
+                <input type="text" placeholder="Enter Name" name="username" class="name1" required>
+                <br>
+
+
+                <label class="label" for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Enter your Email" name="fullname" class="name1" required>
+                <br>
+
+                <label class="label" for="password">Password</label>
+                <input type="password"  placeholder="Set Password" name="password" class="name1" required>
+                <br>
+
+                <label class="label" for="confirm password">Confirm Password</label>
+                <input type="password"  placeholder="Confirm Password" name="cpassword" class="name1" required>
+                <br>
+
+                <button type="submit" id="btn-register" value="register"> Register </button>
+            </form>
+        </div>
+    </div>
+    <div class="login-text">
+        <h2>Already have a account !!</h2>
+        <div class="register-info">
+            <p style="text-align: center;">"Be a part of the our clan.Fill in your details to register in minutes".
+        </div>
+        <form action="login.html">
+            <button type="submit" id="btn-login" value="login">Go back to Login</button>
+        </form>
+    </div>
+</body>
+
+</html>

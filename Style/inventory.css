@@ -1,0 +1,61 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+.add_to_Card{
+    border-radius: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color:#feca15;
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+.add_to_Card:hover{
+    background-color: rgba(255, 255, 0, 0.747);
+   color: #000;
+}
+.sale{
+    background-color: red;
+    border-radius: 9px;
+    color: white;
+    font-size: 0.813rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.536rem;
+    padding: 0.125rem 0.813rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 1rem;
+    top: 1.188rem;
+    z-index: 99;
+
+}
+.product-list .product-name h3{
+    font-size: 1.125rem;
+    color:#000;
+    transition: all 0.3s ease 0s;
+
+
+}
+.product-list .product-name h3:hover{
+    color:red;
+
+}
+.product-list .product-name .amount{
+    color: red;
+    font-weight: 500;
+
+}
+.product-list .product-name .amount del{
+    color: grey;
+}
+.product-list .product-name .ti-star{
+    color: grey;
+}
+.product-list .product-name .ti-star.active{
+    color: rgb(88, 0, 0);
+}
+
+
+
+
+
+
